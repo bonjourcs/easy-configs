@@ -1,0 +1,13 @@
+[user]
+	name = Liang Chenghao
+	email = lch_office@foxmail.com
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	br = branch
+	unstage = reset HEAD
+	rlg = reflog
+	lg = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+[credential]
+	helper = store
