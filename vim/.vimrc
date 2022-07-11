@@ -44,9 +44,6 @@ set guioptions-=m
 set laststatus=2
 "动态高亮搜索关键字
 set incsearch
-"设置不可见字符可见
-set list
-set listchars=eol:$,tab:&-,trail:~,extends:>,precedes:<
 "==================================================
 "                    缩进设置
 "==================================================
@@ -81,13 +78,12 @@ if has("win32")
     set fileencoding=chinese
 	"解决终端乱码
 	set termencoding=gbk "中文环境终端的默认编码,chcp 可更改默认编码
+	source $VIMRUNTIME/delmenu.vim
+	source $VIMRUNTIME/menu.vim
+	language message zh_CN.UTF-8
 else
     set fileencoding=utf-8
 endif
-"解决Windows下菜单乱码
-source $VIMRUNTIME/delmenu.vim
-source $VIMRUNTIME/menu.vim
-language message zh_CN.UTF-8
 "==================================================
 "                   自动补全设置
 "==================================================
@@ -118,7 +114,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 "插件列表
 "|---主题
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
 "|---插件管理器
 Plugin 'VundleVim/Vundle.vim'
@@ -153,15 +148,9 @@ filetype plugin indent on
 "               插件设置
 "==================================================
 "---主题设置
-"在Windows中molokai更好用，所以使用如下设置
-if has("win32")
-	colorscheme molokai
-	let g:molokai_original=1
-	let g:rehash256=1
-else
-	set background=dark
-	colorscheme solarized
-endif
+colorscheme molokai
+let g:molokai_original=1
+let g:rehash256=1
 "---NERDTree配置 
 let NERDChristmasTree=0
 let NERDTreeWinSize=35
