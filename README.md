@@ -6,4 +6,4 @@
 
 - [Git](git/README.md): Git 配置文件
 - [Vim](vim/README.md): Vim 配置文件
-- [NVim](nvim/README.md): NVim 配置文件
+- [NeoVim](nvim/README.md): NeoVim 配置文件
