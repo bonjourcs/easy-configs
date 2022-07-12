@@ -1,5 +1,7 @@
-require('kanagawa').setup({
-	undercurl = true
-})
-
-vim.cmd [[colorscheme kanagawa]]
+require('material').setup({
+		lualine_stlye = "stealth",
+		async_loading = true
+	}
+)
+vim.cmd 'colorscheme material'
+vim.g.material_style = 'oceanic'

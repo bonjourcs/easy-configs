@@ -1,11 +1,11 @@
 -- packer 配置
-vim.cmd [[packadd packer.nvim]]
+vim.cmd 'packadd packer.nvim'
 
 return require('packer').startup(
 	function()
-		-- packer
+		-- plugin installer
 		use 'wbthomason/packer.nvim'
-		-- tree list
+		-- file tree list
 		use {
 			'kyazdani42/nvim-tree.lua',
 			requires = {
@@ -13,12 +13,35 @@ return require('packer').startup(
 			},
 			tag = 'nightly'
 		}
+		-- parser tool
+		use {
+			'nvim-treesitter/nvim-treesitter',
+			run = 'TSUpdate'
+		}
+		-- status bar
+		use {
+			'nvim-lualine/lualine.nvim',
+			requires = {
+				'kyazdani42/nvim-web-devicons',
+				opt = true
+			}
+		}
 		-- theme
-		use "rebelot/kanagawa.nvim"
+		use 'marko-cerovac/material.nvim'
 		-- ide-like tabs
 		use {
 			'akinsho/bufferline.nvim',
-			requires = 'kyazdani42/nvim-web-devicons'
+			requires = {
+				'kyazdani42/nvim-web-devicons',
+				opt = true
+			}
+		}
+		-- fuzzy finder
+		use {
+			'nvim-telescope/telescope.nvim',
+			requires = {
+				'nvim-lua/plenary.nvim'
+			}
 		}
 		-- lsp supprot
 		use 'williamboman/nvim-lsp-installer'
