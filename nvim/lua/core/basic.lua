@@ -16,6 +16,8 @@ vim.opt.compatible = false
 vim.opt.autowrite = true
 -- 不生成备份文件
 vim.opt.backup = false
+-- 不生成交换文件
+vim.opt.swapfile = false
 -- 共享系统剪切板
 vim.opt.clipboard:append({'unnamed'})
 -- 缩进相关
@@ -28,4 +30,4 @@ vim.opt.softtabstop = 4
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
 -- 字体
-vim.opt.guifont='Consolas:h14'
+vim.opt.guifont='GoMono Nerd Font Mono:h14'

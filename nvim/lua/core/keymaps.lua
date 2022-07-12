@@ -3,9 +3,10 @@ vim.g.mapleader = ';'
 vim.g.maplocalleader = ';'
 -- 设置快捷键
 local map = vim.api.nvim_set_keymap
-local op = {noremap = true, silent = true}
+local opts = {noremap = true, silent = true}
 -- NvimTree
-map('n', '<F3>', ':NvimTreeToggle<Cr>', op)
-map('n', '<leader>tt', ':NvimTreeToggle<Cr>', op)
--- 切换material主题
-map('n', '<leader>mm', [[<Cmd>lua require('material.functions').toggle_style()<Cr>]], op)
+map('n', '<A-1>', ':NvimTreeToggle<Cr>', opts)
+map('n', '<leader>tt', ':NvimTreeToggle<Cr>', opts)
+map('n', '<A-t>', ':NvimTreeFocus<Cr>', opts)
+-- Material Theme
+map('n', '<leader>mm', [[<Cmd>lua require('material.functions').toggle_style()<Cr>]], opts)
