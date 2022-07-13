@@ -13,7 +13,7 @@ return require('packer').startup(
 			},
 			tag = 'nightly'
 		}
-		-- parser tool
+		-- parser highlighting
 		use {
 			'nvim-treesitter/nvim-treesitter',
 			run = 'TSUpdate'

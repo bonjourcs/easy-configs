@@ -16,6 +16,7 @@ vim.opt.compatible = false
 vim.opt.autowrite = true
 -- 不生成备份文件
 vim.opt.backup = false
+vim.opt.writebackup = false
 -- 不生成交换文件
 vim.opt.swapfile = false
 -- 共享系统剪切板

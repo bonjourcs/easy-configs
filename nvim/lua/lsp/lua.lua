@@ -1,3 +1,4 @@
+-- sumneko_lua config
 require('lspconfig')['sumneko_lua'].setup({
 	settings = {
 		runtime = {

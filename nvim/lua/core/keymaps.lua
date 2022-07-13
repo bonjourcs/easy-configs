@@ -5,8 +5,8 @@ vim.g.maplocalleader = ';'
 local map = vim.api.nvim_set_keymap
 local opts = {noremap = true, silent = true}
 -- NvimTree
-map('n', '<A-1>', ':NvimTreeToggle<Cr>', opts)
-map('n', '<leader>tt', ':NvimTreeToggle<Cr>', opts)
-map('n', '<A-t>', ':NvimTreeFocus<Cr>', opts)
+map('n', '<A-1>', ':NvimTreeToggle<CR>', opts)
+map('n', '<leader>tt', ':NvimTreeToggle<CR>', opts)
+map('n', '<A-t>', ':NvimTreeFocus<CR>', opts)
 -- Material Theme
-map('n', '<leader>mm', [[<Cmd>lua require('material.functions').toggle_style()<Cr>]], opts)
+map('n', '<leader>mm', [[<Cmd>lua require('material.functions').toggle_style()<CR>]], opts)
