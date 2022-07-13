@@ -31,4 +31,4 @@ vim.opt.softtabstop = 4
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
 -- 字体
-vim.opt.guifont='GoMono Nerd Font Mono:h14'
+vim.opt.guifont='JetBrainsMono Nerd Font Mono:h14'

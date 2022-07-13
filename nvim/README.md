@@ -5,7 +5,7 @@ NeoVim 配置文件
 - Git 
 - NeoVim 
 - Shell/PowerShell
-- Nerd Font* [GoMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+- Nerd Font* [JetbrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 # 使用
 
