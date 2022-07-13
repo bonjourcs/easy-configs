@@ -1,5 +1,4 @@
 require('core.basic')
-require('impatient')
 require('core.plugins')
 require('core.keymaps')
 require('core.theme')
