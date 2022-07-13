@@ -22,7 +22,7 @@ git clone https://github.com/bonjourcs/easy-configs.git && cp -r easy-configs/nv
 git clone https://github.com/bonjourcs/easy-configs.git && cp -r easy-configs/nvim "$env:LOCALAPPDATA\"
 ```
 
-## 2. 安装 Pakcer
+## 2. 安装 Packer
 
 - Linux 系统：
 
