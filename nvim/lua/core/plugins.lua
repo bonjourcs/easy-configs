@@ -46,6 +46,7 @@ return require('packer').startup(
 		-- lsp supprot
 		use 'williamboman/nvim-lsp-installer'
 		use 'neovim/nvim-lspconfig'
+		use 'p00f/clangd_extensions.nvim'
 		-- autocomplete coc
 		-- use {
 		-- 	'neoclide/coc.nvim',
