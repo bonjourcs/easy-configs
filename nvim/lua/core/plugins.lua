@@ -27,7 +27,7 @@ return require('packer').startup(
 			}
 		}
 		-- theme
-		use 'marko-cerovac/material.nvim'
+		use 'joshdick/onedark.vim'
 		-- ide-like tabs
 		use {
 			'akinsho/bufferline.nvim',
@@ -47,10 +47,10 @@ return require('packer').startup(
 		use 'williamboman/nvim-lsp-installer'
 		use 'neovim/nvim-lspconfig'
 		-- autocomplete coc
-		use {
-			'neoclide/coc.nvim',
-			branch = 'release'
-		}
+		-- use {
+		-- 	'neoclide/coc.nvim',
+		-- 	branch = 'release'
+		-- }
 		-- autocomplete 
 		use 'hrsh7th/cmp-nvim-lsp'
 		use 'hrsh7th/cmp-buffer'

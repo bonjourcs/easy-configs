@@ -8,5 +8,3 @@ local opts = {noremap = true, silent = true}
 map('n', '<A-1>', ':NvimTreeToggle<CR>', opts)
 map('n', '<leader>tt', ':NvimTreeToggle<CR>', opts)
 map('n', '<A-t>', ':NvimTreeFocus<CR>', opts)
--- Material Theme
-map('n', '<leader>mm', [[<Cmd>lua require('material.functions').toggle_style()<CR>]], opts)

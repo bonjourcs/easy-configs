@@ -46,3 +46,19 @@ git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data
 
 Enjoy it!
 
+# 问题列表
+
+## Nvim-Treesitter 提示 `*.so is not valid WIN32 application`
+
+### 安装 LLVM
+
+以 Chocolatey 为例：
+```shell
+choco install llvm
+```
+### 指定 clang 为 Nvim-Treesitter 的编译器
+
+在配置文件里加上如下配置：
+```lua
+require'nvim-tresitter.install'.compilers = {'clang'}
+```
