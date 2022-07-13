@@ -5,6 +5,7 @@ return require('packer').startup(
 	function()
 		-- plugin installer
 		use 'wbthomason/packer.nvim'
+		use 'lewis6991/impatient.nvim'
 		-- file tree list
 		use {
 			'kyazdani42/nvim-tree.lua',
