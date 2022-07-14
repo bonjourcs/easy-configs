@@ -7,7 +7,10 @@ vim.api.nvim_create_autocmd({ 'BufEnter', 'BufAdd', 'BufNew', 'BufNewFile', 'Buf
 })
 
 -- use clang compiler (Win10 users should install llvm first, via `choco install llvm`)
-require'nvim-treesitter.install'.compilers = {'clang'}
+local os_name = vim.loop.os_uname().sysname
+if os_name == 'Windows_NT' then
+	require'nvim-treesitter.install'.compilers = {'clang'}
+end
 
 require'nvim-treesitter.configs'.setup {
 	ensure_installed = { "c", "lua" },
