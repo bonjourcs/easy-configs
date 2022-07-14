@@ -4,6 +4,5 @@
 
 # 模块组成
 
-- [Git](git/README.md): Git 配置文件
-- [Vim](vim/README.md): Vim 配置文件
-- [NeoVim](nvim/README.md): NeoVim 配置文件
+- [Git](easy-configs-git/README.md): Git 配置文件
+- [NeoVim](easy-configs-nvim/README.md): NeoVim 配置文件
