@@ -1,3 +1,4 @@
+require('impatient')
 require('configs.cmp')
 require('configs.lualine')
 require('configs.nvim-lsp-installer')
