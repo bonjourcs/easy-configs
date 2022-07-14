@@ -4,5 +4,5 @@
 
 # 模块组成
 
-- [Git](easy-configs-git/README.md): Git 配置文件
-- [NeoVim](github.com/bonjourcs/easy-configs-nvim): NeoVim 配置文件
+- [Git](https://github.com/bonjourcs/easy-configs-git)
+- [NeoVim](https://github.com/bonjourcs/easy-configs-nvim)
