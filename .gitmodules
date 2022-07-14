@@ -1,3 +1,6 @@
 [submodule "easy-configs-nvim"]
 	path = easy-configs-nvim
 	url = git@github.com:bonjourcs/easy-configs-nvim.git
+[submodule "easy-configs-git"]
+	path = easy-configs-git
+	url = git@github.com:bonjourcs/easy-configs-git
