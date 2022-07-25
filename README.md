@@ -6,3 +6,4 @@
 
 - [Git](https://github.com/bonjourcs/easy-configs-git)
 - [NeoVim](https://github.com/bonjourcs/easy-configs-nvim)
+- [Shell](https://github.com/bonjourcs/easy-configs-sh)
