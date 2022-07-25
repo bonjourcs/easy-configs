@@ -4,3 +4,6 @@
 [submodule "easy-configs-git"]
 	path = easy-configs-git
 	url = git@github.com:bonjourcs/easy-configs-git
+[submodule "easy-configs-sh"]
+	path = easy-configs-sh
+	url = git@github.com:bonjourcs/easy-configs-sh.git
